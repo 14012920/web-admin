@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: var(--bgSoft);
+  color: var(--textSoft);
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 12px;
+}

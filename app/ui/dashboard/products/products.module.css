@@ -1,0 +1,198 @@
+.containerMain {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: var(--bgSoft);
+}
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: var(--text);
+  color: var(--bg);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.product {
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+  gap: 10px;
+}
+
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+
+.view {
+  background-color: teal;
+  color: whitesmoke;
+}
+
+.delete {
+  background-color: crimson;
+  color: whitesmoke;
+}
+
+.formContainer {
+  flex: 3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 16px;
+  border: 1px solid #2e374a;
+  border-radius: 5px;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 10px 0px;
+}
+.form label {
+  font-size: 12px;
+}
+
+.form button {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--text);
+  color: var(--bg);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hidden {
+  display: none;
+  cursor: pointer;
+}
+
+/*-----------------Single Product--------------------------*/
+
+.infoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--textSoft);
+  height: max-content;
+  gap: 20px;
+}
+
+.imgContainer {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.addphoto {
+  display: flex;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #2e374a;
+}
+
+/*------------------add product -------------  */
+
+.selectwrapperr {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.selectwrapper::after {
+  content: "▼";
+  font-size: 1rem;
+  top: 6px;
+  right: 10px;
+  position: absolute;
+}
+.propertiesContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.propBox {
+  max-width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.selectedItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+  padding-right: 2px;
+  border: 1px solid black;
+  color: var(--text);
+  border-radius: 20px;
+  margin-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.closeIcon {
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+}
+
+.errorMsg {
+  color: "red";
+}

@@ -1,0 +1,35 @@
+:root {
+  --bg: #f3f3f3;
+  --bgSoft: #e5e5e8;
+  --text: #182237;
+  --textSoft: #182237;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+thead {
+  font-weight: 600;
+}
+.button {
+  background-color: var(--text);
+  color: var(--bg);
+  font-size: 40px;
+}
+.button:disabled {
+  background-color: gray;
+  color: var(--bg);
+  font-size: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
